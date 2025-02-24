@@ -180,7 +180,6 @@ void CSocekt::ngx_event_accept(lpngx_connection_t oldc)
             ngx_log_stderr(0,"发送缓冲区的大小为%d!",n); //87040
         }
         */
-//
         if(m_ifkickTimeCount == 1)
         {
             AddToTimerQueue(newc);
